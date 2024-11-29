@@ -1,0 +1,28 @@
+body{
+    padding: 0px;
+    margin: 0pc;
+}
+.banner{
+    padding: 10em 10em;
+   text-align: center;
+   height: 100vh;
+    line-height: 50px;
+}
+
+.navs-text {
+    color: #fff;
+    margin: 0px 10px;
+    text-decoration: none;
+    padding-top: 4px;
+}
+/* content */
+.content-content{
+    padding: 5em 5em;
+}
+
+@media only screen and (max-width:700px) {
+    .banner {
+        padding: 20px ;
+        line-height: normal;
+    }
+}
